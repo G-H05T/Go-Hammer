@@ -36,4 +36,4 @@ mv main hammer
 ./hammer
 ```
 ### Screencap
-![Hammer](https://github.com/G-H05T/Go-Hammer/Hammer.png)
+![Hammer](https://github.com/G-H05T/Go-Hammer/blob/master/Hammer.png)
